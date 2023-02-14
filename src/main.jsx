@@ -18,7 +18,7 @@ const renderApp = () => {
     <div>
       <div>example content</div>
       <WithoutState />
-      {/* <WithState /> uncomment this to see the error */}
+      <WithState />
     </div>,
     rootElem
   );

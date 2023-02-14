@@ -4,6 +4,9 @@ import react from '@vitejs/plugin-react';
 import { dependencies } from './package.json';
 
 export default defineConfig({
+  build: {
+    target: 'esnext'
+  },
   worker: {
     format: 'es',
   },
